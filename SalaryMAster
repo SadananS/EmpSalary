@@ -1,0 +1,154 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="frmSalaryMaster.aspx.cs" Inherits="PAYSLIP.frmSalaryMaster" %>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Employee Details </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="Content/emp.css" rel="stylesheet">
+
+
+    <link href="Content/empDetail.css" rel="stylesheet" />
+
+    <script src="Scripts/Empolyeemst.js"></script>
+    <script src="Scripts/bootstrapemp.js"></script>
+
+</head>
+<body>
+<div class="container">
+    <h1 class="well">Salary  Details</h1>
+	<div class="col-lg-12 well">
+	<div class="row">
+				<form>
+					<div class="col-sm-12">
+                        <div class="row">
+							<div class="col-sm-4 form-group">
+								<label>EmpID</label>
+								<input type="text" placeholder="EnterEmpID Here.." class="form-control">
+							</div>	
+                            	<div class="col-sm-4 form-group">
+								<label>Paid Leave</label>
+								<input type="text" placeholder="Enter Paid LeaveHere.." class="form-control">
+							</div>	
+							<div class="col-sm-4 form-group">
+								<label>Absent </label>
+								<input type="text" placeholder="Enter Absent days Here.." class="form-control">
+							</div>	
+                            <div class="col-sm-4 form-group">
+								<label>No of Worked </label>
+								<input type="text" placeholder="Enter No of Worked days Here.." class="form-control">
+							</div>	
+                            <div class="col-sm-4 form-group">
+								<label>No of days Present</label>
+								<input type="text" placeholder="Enter Present Days Here.." class="form-control">
+							</div>	
+                            <div class="col-sm-4 form-group">
+								<label>Loss Of Pay </label>
+								<input type="text" placeholder="Enter LOP Here.." class="form-control">
+							</div>	
+								
+						</div>
+						<div class="row">
+                            	<div class="col-sm-6 form-group">
+                                    <label >Earning Amount</label>
+                                    <br />
+								<label>Gross CTC</label>
+								<input type="text" placeholder="Enter CTC" class="form-control">
+							</div>
+                            	<div class="col-sm-6 form-group">
+                                        <label >Deduction Amount</label>
+                                    <br />
+								<label>Profeessional Tax </label>
+								<input type="text" placeholder="Enter PT Here.." class="form-control">
+							</div>
+
+							<div class="col-sm-6 form-group">
+								<label>BASIC</label>
+								<input type="text" placeholder="Enter BASIC Here.." class="form-control">
+							</div>
+							<div class="col-sm-6 form-group">
+								<label>TDS</label>
+								<input type="text" placeholder="Enter TDS Here.." class="form-control">
+							</div>
+
+                            <div class="col-sm-6 form-group">
+								<label>HRA </label>
+								<input type="text" placeholder="Enter HRA Here.." class="form-control">
+							</div>
+
+                            <div class="col-sm-6 form-group">
+								<label>Loss Of Pay </label>
+                               
+								<input type="text" placeholder="Enter LOP Here.." class="form-control">
+							</div>
+
+                            
+                            <div class="col-sm-6 form-group">
+								<label>Incentives </label>
+								<input type="text" placeholder="Enter Incentives Here.." class="form-control">
+							</div>
+
+                            <div class="col-sm-6 form-group">
+								<label>Other Deduction </label>
+                               
+								<input type="text" placeholder="" class="form-control">
+							</div>
+
+
+                            
+                            <div class="col-sm-6 form-group">
+								<label>Conveyance </label>
+								<input type="text" placeholder="Enter Conveyance Here.." class="form-control">
+							</div>
+
+                            <div class="col-sm-6 form-group">
+								<label>Loan </label>
+                               
+								<input type="text" placeholder="Enter Loan Here.." class="form-control">
+							</div>
+
+                                 <div class="col-sm-6 form-group">
+								<label>Medical </label>
+								<input type="text" placeholder="Enter Medical Here.." class="form-control">
+							</div>
+
+                            <div class="col-sm-6 form-group">
+								<label>Salary Advance </label>
+                               
+								<input type="text" placeholder="" class="form-control">
+							</div>
+
+
+                            
+                            <div class="col-sm-6 form-group">
+								<label>Deputation Allowance </label>
+								<input type="text" placeholder="Enter Deputation Allowance Here.." class="form-control">
+							</div>
+
+                          <%--  <div class="col-sm-6 form-group">
+								<label>Loan </label>
+                               
+								<input type="text" placeholder="Enter Loan Here.." class="form-control">
+							</div>
+
+                            <div class="col-sm-6 form-group">
+								<label>Special Allowance </label>
+								<input type="text" placeholder="Enter Special Allowance Here.." class="form-control">
+							</div>
+						</div>	--%>				
+					
+                       
+						
+			
+					<button type="button" class="btn btn-lg btn-info">Save</button>					
+					</div>
+				</form> 
+				</div>
+	</div>
+	</div>
+<script type="text/javascript">
+
+</script>
+</body>
+</html>
